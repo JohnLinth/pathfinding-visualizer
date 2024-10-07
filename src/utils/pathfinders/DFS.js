@@ -90,7 +90,7 @@ export function* dfs(
         ...prevSteps,
         {
           stepNumber: stepsCounter + 2,
-          mainStep: `Path found with length ${pathLength}`,
+          mainStep: `Path found with length ${pathLength-2}`,
           subSteps: [],
         },
       ]);
