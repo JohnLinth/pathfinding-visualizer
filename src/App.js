@@ -471,13 +471,13 @@ const PathfindingGridApp = () => {
       </div>
 
       {/* algorithm desc */}
-      <div className="border-2 h-min-screen mx-7 px-7">
+      <div className="px-7 mx-7 border-2 h-min-screen">
         <h1 className="my-3 text-3xl font-bold text-center">
           Selected Algorithm: {algorithm}
         </h1>
         <div className="flex justify-center">
           <a
-            href="https://github.com/your-repo-link"
+            href="https://github.com/JohnLinth/pathfinding-visualizer"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-row px-3 py-2 space-x-2 rounded-lg bg-slate-300 hover:bg-slate-500"

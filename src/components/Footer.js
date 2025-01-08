@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="flex flex-col space-x-4">
           <p className="text-right">Created with</p>
           <div className="flex flex-row justify-end">
-            <p>React, Tailwind</p>
+            <p>React JS, Tailwind CSS</p>
             {/* Icons 
       <ReactIcon className="w-6 h-6" />
       <TailwindIcon className="w-6 h-6" />
